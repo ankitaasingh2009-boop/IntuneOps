@@ -1,0 +1,22 @@
+# PowerShell
+*.psm1~
+*.psd1~
+
+# Output files
+*.html
+*.csv
+!docs/**/*.html
+
+# Baselines (may contain tenant-specific data)
+baselines/*.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test results
+test-results.xml
